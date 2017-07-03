@@ -17,8 +17,10 @@ body {
     text-align: center;
 }
 
+
+
 .wrapper {
-    width: 760px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -38,3 +40,17 @@ body {
     background: yellow;
     width: 100%;
 }
+
+ .img  {
+border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+padding: 15px; /* Расстояние от картинки до рамки */
+background: #666; /* Цвет фона */
+margin-right: 10px; /* Отступ справа */
+margin-bottom: 10px; /* Отступ снизу */
+}
+.sign {
+   float: left;; /* Выравнивание по правому краю */
+   padding: 7px; /* Поля внутри блока */
+   margin: 10px 0 5px 5px; /* Отступы вокруг */
+   background: #f0f0f0; /* Цвет фона */
+  }
