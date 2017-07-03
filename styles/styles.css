@@ -1,8 +1,40 @@
 body {
     margin: 0;
 }
+
 .header {
     text-align: center;
     padding: 15px 0 15px 0;
     background: green;
+}
+
+.main {
+    padding: 20px 0 20px 0;
+    background: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    width: 760px;
+    margin: 0 auto;
+}
+
+ .leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+ }
+
+ .rightimg  {
+  float: right; /* Выравнивание по правому краю  */
+  margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+ }
+
+.footer {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background: yellow;
+    width: 100%;
 }
